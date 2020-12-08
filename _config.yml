@@ -42,6 +42,9 @@ external_link:
 filename_case: 0
 render_drafts: false
 post_asset_folder: true
+marked:
+  prependRoot: true
+  postAsset: true
 relative_link: false
 future: true
 highlight:
@@ -119,3 +122,8 @@ search:
   field: post
   format: html
   limit: 10000
+
+lazyload:
+  enable: true
+  onlypost: true
+  loadingImg: /images/favicon-16x16-next.png
